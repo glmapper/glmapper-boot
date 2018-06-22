@@ -9,9 +9,14 @@
         <module name="api" />
         <module name="dao" />
         <module name="foundation" />
+        <module name="glmapper-api" />
+        <module name="glmapper-dao" />
+        <module name="glmapper-model" />
+        <module name="glmapper-service" />
+        <module name="glmapper-utils" />
+        <module name="glmapper-web" />
         <module name="model" />
         <module name="persist" />
-        <module name="resource" />
         <module name="service" />
         <module name="utils" />
         <module name="web" />
@@ -22,6 +27,12 @@
       <module name="dao" target="1.8" />
       <module name="dome" target="1.5" />
       <module name="foundation" target="1.5" />
+      <module name="glmapper-api" target="1.8" />
+      <module name="glmapper-dao" target="1.8" />
+      <module name="glmapper-model" target="1.8" />
+      <module name="glmapper-service" target="1.8" />
+      <module name="glmapper-utils" target="1.8" />
+      <module name="glmapper-web" target="1.8" />
       <module name="model" target="1.8" />
       <module name="parent" target="1.8" />
       <module name="persist" target="1.5" />

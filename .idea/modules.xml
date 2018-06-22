@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dao/dao.iml" filepath="$PROJECT_DIR$/dao/dao.iml" />
-      <module fileurl="file://$PROJECT_DIR$/model/model.iml" filepath="$PROJECT_DIR$/model/model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/glmapper-api/glmapper-api.iml" filepath="$PROJECT_DIR$/glmapper-api/glmapper-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/glmapper-dao/glmapper-dao.iml" filepath="$PROJECT_DIR$/glmapper-dao/glmapper-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/glmapper-model/glmapper-model.iml" filepath="$PROJECT_DIR$/glmapper-model/glmapper-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/glmapper-service/glmapper-service.iml" filepath="$PROJECT_DIR$/glmapper-service/glmapper-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/glmapper-utils/glmapper-utils.iml" filepath="$PROJECT_DIR$/glmapper-utils/glmapper-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/glmapper-web/glmapper-web.iml" filepath="$PROJECT_DIR$/glmapper-web/glmapper-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent.iml" filepath="$PROJECT_DIR$/parent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/resource/resource.iml" filepath="$PROJECT_DIR$/resource/resource.iml" />
-      <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/utils/utils.iml" filepath="$PROJECT_DIR$/utils/utils.iml" />
-      <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
     </modules>
   </component>
 </project>

@@ -4,11 +4,11 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="web" />
+          <element id="module-output" name="glmapper-web" />
         </element>
         <element id="directory" name="lib">
           <element id="archive" name="model-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="model" />
+            <element id="module-output" name="glmapper-model" />
           </element>
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-data-jpa:1.5.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-jdbc:1.5.9.RELEASE" />
@@ -29,10 +29,10 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:4.3.13.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aspects:4.3.13.RELEASE" />
           <element id="archive" name="service-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="service" />
+            <element id="module-output" name="glmapper-service" />
           </element>
           <element id="archive" name="dao-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="dao" />
+            <element id="module-output" name="glmapper-dao" />
           </element>
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.44" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-aop:1.5.9.RELEASE" />
@@ -95,9 +95,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/web/target/owen-start/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/glmapper-web/target/owen-start/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="web/web/Web" />
+      <element id="javaee-facet-resources" facet="glmapper-web/web/Web" />
     </root>
   </artifact>
 </component>
