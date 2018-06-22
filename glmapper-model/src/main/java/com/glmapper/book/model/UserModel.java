@@ -9,8 +9,8 @@ package com.glmapper.book.model;
 public class UserModel {
 
     private Integer id;
-    private String userName;
-    private String nickName;
+    private String  userName;
+    private String  nickName;
 
     public Integer getId() {
         return id;

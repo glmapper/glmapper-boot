@@ -21,7 +21,7 @@ import java.util.Map;
 @RequestMapping(value = "/user")
 public class UserController {
 
-    private Logger logger = LoggerFactory.getLogger(UserController.class);
+    private Logger      logger = LoggerFactory.getLogger(UserController.class);
 
     @Autowired
     private UserService userService;
@@ -33,12 +33,12 @@ public class UserController {
      * @return
      */
     @ResponseBody
-    @RequestMapping(value = "/add", produces = {"application/json;charset=UTF-8"})
-    public ModelAndView addUser(UserModel user, ModelAndView view){
+    @RequestMapping(value = "/add", produces = { "application/json;charset=UTF-8" })
+    public ModelAndView addUser(UserModel user, ModelAndView view) {
         user.setUserName("卫恒");
         user.setNickName("卫恒");
         userService.addUserModel(user);
-        view.addObject("hello","Hello FreeMarker");
+        view.addObject("hello", "Hello FreeMarker");
         view.setViewName("/login");
         return view;
     }
@@ -47,9 +47,9 @@ public class UserController {
      * 如果要直接返回字符串，这里类型需要修改成application/html
      * @return
      */
-    @RequestMapping(value = "/test",produces = {"application/html;charset=UTF-8"})
-    public String test(Map<String,Object> map){
-        map.put("hello","Hello FreeMarker");
+    @RequestMapping(value = "/test", produces = { "application/html;charset=UTF-8" })
+    public String test(Map<String, Object> map) {
+        map.put("hello", "Hello FreeMarker");
         return "/login";
     }
 }

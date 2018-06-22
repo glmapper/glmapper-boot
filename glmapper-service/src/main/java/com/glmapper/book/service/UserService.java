@@ -10,5 +10,5 @@ import com.glmapper.book.model.UserModel;
  */
 public interface UserService {
 
-     int addUserModel(UserModel userModel);
+    int addUserModel(UserModel userModel);
 }
